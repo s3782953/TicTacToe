@@ -1,6 +1,7 @@
 # TicTacToe
 
 **##Update 1:**
+
 Overall reworked on the algorithm removed unnecessary code, made it much more simpler than last version, made comments
 for other users to be able to understand
 
