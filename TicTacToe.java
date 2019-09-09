@@ -13,6 +13,7 @@ public class TicTacToe {
             player(); // The players move
             complete(); // Checks if all spaces are filled
             algorithm(); // The computers move
+            Check();
             status(); // Prints out the status of the game
         }
     }
@@ -47,6 +48,10 @@ public class TicTacToe {
             }
         }
         flick = false;
+    }
+
+    private static void Check() { //Checks if there are any nearby wins
+
     }
 
     private static void complete() { // Checks if the game is finish once all spaces are filled out
