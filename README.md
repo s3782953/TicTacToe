@@ -4,7 +4,11 @@ A simple TicTacToe where a player can go up against a computer with the attempte
 
 ### Links: 
 
+Assignment Document:
+
 https://docs.google.com/document/d/1pyeq1zfcfCBpGrbXuiLKUhB-Zc2nMVUSEoj62lemG6Q/edit?usp=sharing
+
+Assignment Spreadsheet:
 
 https://docs.google.com/spreadsheets/d/1Sy_aqCvckq-kineNYA0Er2AtaogsCUWqeP6vIKyUdp0/edit?usp=sharing
 
