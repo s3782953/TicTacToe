@@ -12,6 +12,10 @@ Assignment Spreadsheet:
 
 https://docs.google.com/spreadsheets/d/1Sy_aqCvckq-kineNYA0Er2AtaogsCUWqeP6vIKyUdp0/edit?usp=sharing
 
+## Update 2:
+
+Finished the program TicTacToe with the feature "Player vs Computer" Everything should be in working order please validate this program for future mending.
+
 ## Update 1:
 
 Overall reworked on the algorithm removed unnecessary code, made it much more simpler than last version, made comments for other users to be able to understand
