@@ -5,7 +5,6 @@ public class TicTacToe {
     private static int column = 3; // The Column Height
     private static int[][] plane = new int[row][column]; // The main array
     private static int[][] marker = new int[row][column]; // The copy array
-    private static int[][] filler = new int[row][column];
     private static boolean finish = true; // Checks if all the spaces are filled
     private static boolean flick = false; // Flicks true once the computer made a move
     private static boolean tick = false;
@@ -24,7 +23,7 @@ public class TicTacToe {
     }
 
     private static void player() { // The players method which ask you simple 'Which location do you like to make
-                                   // your move?''
+                                   // your move?'
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your move...");
         System.out.println("Enter Width:");
@@ -258,5 +257,4 @@ public class TicTacToe {
         }
         another = false;
     }
-
 }
