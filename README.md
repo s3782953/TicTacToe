@@ -1,6 +1,6 @@
 # TicTacToe
 
-A simple TicTacToe where a player can go up against a computer with the attempted difficulty setting installed
+A simple TicTacToe where a player can go up against a player, can also play up against a programmed artificial intelligent computer to go up against a player. Have the ability to change difficulty of the computer and also the power to resize the board.
 
 ### Links: 
 
@@ -11,14 +11,6 @@ https://docs.google.com/document/d/1pyeq1zfcfCBpGrbXuiLKUhB-Zc2nMVUSEoj62lemG6Q/
 Assignment Spreadsheet:
 
 https://docs.google.com/spreadsheets/d/1YYnllE2T-ldWTcsB4mx1n9fS5Q3WMUQ3B927IxXEmnU/edit#gid=2100134375
-
-## Update 2:
-
-Finished the program TicTacToe with the feature "Player vs Computer" Everything should be in working order please validate this program for future mending.
-
-## Update 1:
-
-Overall reworked on the algorithm removed unnecessary code, made it much more simpler than last version, made comments for other users to be able to understand
 
 ### Contributed by:
 
