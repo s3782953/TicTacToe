@@ -22,7 +22,7 @@ Overall reworked on the algorithm removed unnecessary code, made it much more si
 
 ### Contributed by:
 
-Danny Nguyen - s3782953
+Danny Nguyen - s3782953 (https://github.com/s3782953/TicTacToe/tree/player_vs_computer)
 
 Simon Ngo - s3769688
 
