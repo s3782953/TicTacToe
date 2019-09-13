@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1YYnllE2T-ldWTcsB4mx1n9fS5Q3WMUQ3B927IxXE
 
 ### Contributed by:
 
-Danny Nguyen - s3782953
+Danny Nguyen - s3782953 (https://github.com/s3782953/TicTacToe/tree/player_vs_computer)
 
 Simon Ngo - s3769688
 
