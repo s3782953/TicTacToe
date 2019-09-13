@@ -10,7 +10,7 @@ https://docs.google.com/document/d/1pyeq1zfcfCBpGrbXuiLKUhB-Zc2nMVUSEoj62lemG6Q/
 
 Assignment Spreadsheet:
 
-https://docs.google.com/spreadsheets/d/1Sy_aqCvckq-kineNYA0Er2AtaogsCUWqeP6vIKyUdp0/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1YYnllE2T-ldWTcsB4mx1n9fS5Q3WMUQ3B927IxXEmnU/edit?usp=sharing
 
 ## Update 2:
 
