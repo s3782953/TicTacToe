@@ -1,6 +1,6 @@
 # TicTacToe
 
-A simple TicTacToe where a player can go up against a computer with the attempted difficulty setting installed
+A simple TicTacToe where a player can go up against a player, can also play up against a programmed artificial intelligent computer to go up against a player. Have the ability to change difficulty of the computer and also the power to resize the board.
 
 ### Links: 
 
