@@ -9,7 +9,8 @@ public class TicTacToe {
     private static boolean flick = false; // Flicks true once the computer made a move
     private static boolean tick = false;
     private static boolean another = false;
-    private static boolean win = false;
+    private static boolean pwin = false;
+    private static boolean cwin = false;
 
     public static void main(String[] args) { // The main method
         while (finish) { // Runs until the finish variable is flase
@@ -18,7 +19,9 @@ public class TicTacToe {
             Check();
             algorithm(); // The computers move
             status(); // Prints out the status of the game
-            win();
+            pwin();
+            cwin();
+            
         }
     }
 
@@ -73,7 +76,7 @@ public class TicTacToe {
                 }
             }
         }
-        while (again == true && another == true) {
+        while (again == true && another == true && finish == true) {
             for (int i = 0; i < row; i++) {
                 for (int j = 0; j < column; j++) {
                     if (marker[i][j] == 1 && again == true) {
@@ -89,6 +92,10 @@ public class TicTacToe {
             }
             xcounter = 0;
         }
+        checkComp();
+    }
+
+    private static void checkComp() {
     }
 
     private static void complete() { // Checks if the game is finish once all spaces are filled out
@@ -115,16 +122,29 @@ public class TicTacToe {
         }
     }
 
-    private static void win() { //Checks if player has won
-        if (win == true) {
+    private static void pwin() { //Checks if player has won
+        if (pwin == true && cwin == false) {
             finish = false;
             System.out.println("PLAYER WINS");
         }
-        
+        if (pwin == false && finish == false) {
+            System.out.println("DRAW");
+        }
+    }
+
+    private static void cwin() { //Checks if player has won
+        if (cwin == true && pwin == false) {
+            finish = false;
+            System.out.println("COMPUTER WINS");
+        }
+        if (cwin == false && finish == false) {
+            System.out.println("DRAW");
+        }
     }
 
     private static void row() { //Checks all rows for any nearby wins
         int counter = 0;
+        int zcounter = 0;
         int nrow = 0;
         int ncol = 0;
         int i = 0;
@@ -141,14 +161,19 @@ public class TicTacToe {
                 }
                 if (plane[i][j] == 2) {
                     done = false;
+                    zcounter++;
                 }
             }
             if (done == true && counter > 1) {
                 marker[nrow][ncol] = 1;
             }
             if (counter > 2) {
-                win = true;
+                pwin = true;
             }
+            if (zcounter > 2) {
+                cwin = true;
+            }
+            zcounter = 0;
             counter = 0;
             done = true;
         }
@@ -156,6 +181,7 @@ public class TicTacToe {
 
     private static void col() { //Checks all columns for nearby wins
         int counter = 0;
+        int zcounter = 0;
         int nrow = 0;
         int ncol = 0;
         int i = 0;
@@ -172,14 +198,19 @@ public class TicTacToe {
                 }
                 if (plane[i][j] == 2) {
                     done = false;
+                    zcounter++;
                 }
             }
             if (done == true && counter > 1) {
                 marker[nrow][ncol] = 1;
             }
             if (counter > 2) {
-                win = true;
+                pwin = true;
             }
+            if (zcounter > 2) {
+                cwin = true;
+            }
+            zcounter = 0;
             counter = 0;
             done = true;
         }
@@ -187,6 +218,7 @@ public class TicTacToe {
 
     private static void dwnDiag() { //Checks down diagnol for nearby wins
         int counter = 0;
+        int zcounter = 0;
         int tracker = 0;
         int nrow = 0;
         int ncol = 0;
@@ -204,6 +236,7 @@ public class TicTacToe {
             }
             if (plane[i][j] == 2) {
                 done = false;
+                zcounter++;
             }
             i++;
             j++;
@@ -213,12 +246,16 @@ public class TicTacToe {
             marker[nrow][ncol] = 1;
         }
         if (counter > 2) {
-            win = true;
+            pwin = true;
+        }
+        if (zcounter > 2) {
+            cwin = true;
         }
     }
 
     private static void upDiag() { //Check up Diagnol for nearby wins
         int counter = 0;
+        int zcounter = 0;
         int tracker = 0;
         int nrow = 0;
         int ncol = 0;
@@ -236,6 +273,7 @@ public class TicTacToe {
             }
             if (plane[i][j] == 2) {
                 done = false;
+                zcounter++;
             }
             i++;
             j--;
@@ -245,7 +283,10 @@ public class TicTacToe {
             marker[nrow][ncol] = 1;
         }
         if (counter > 2) {
-            win = true;
+            pwin = true;
+        }
+        if (zcounter > 2) {
+            cwin = true;
         }
     }
 
