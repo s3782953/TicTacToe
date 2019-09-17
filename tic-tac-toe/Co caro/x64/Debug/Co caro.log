@@ -1,0 +1,6 @@
+﻿  Co caro.cpp
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\bài tập 1\co caro\co caro.cpp(483): warning C4715: 'CheckRow': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\bài tập 1\co caro\co caro.cpp(534): warning C4715: 'Check_1st_Diagonal_Line': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\bài tập 1\co caro\co caro.cpp(559): warning C4715: 'Check_2nd_Diagonal_Line': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\bài tập 1\co caro\co caro.cpp(510): warning C4715: 'CheckColumn': not all control paths return a value
+  Co caro.vcxproj -> C:\Users\tonyn\Downloads\RMIT Subjects\Building IT System\1653084\Bài tập 1\x64\Debug\Co caro.exe
