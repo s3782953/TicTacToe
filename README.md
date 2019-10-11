@@ -18,6 +18,6 @@ Danny Nguyen - s3782953 (https://github.com/s3782953/TicTacToe/tree/player_vs_co
 
 Simon Ngo - s3769688
 
-Jason Nguyen - s3769688
+Jason Nguyen - s3769688 (https://github.com/s3782953/TicTacToe/tree/player_vs_player)
 
-Justin Mackenzie - s3454507
+Justin Mackenzie - s3454507 (https://github.com/s3782953/TicTacToe/tree/tictactoe-justin-s3454507)
