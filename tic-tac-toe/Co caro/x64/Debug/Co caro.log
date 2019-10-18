@@ -1,0 +1,7 @@
+﻿  Co caro.cpp
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\tic-tac-toe\co caro\co caro.cpp(806): warning C4715: 'CheckRow': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\tic-tac-toe\co caro\co caro.cpp(833): warning C4715: 'CheckColumn': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\tic-tac-toe\co caro\co caro.cpp(857): warning C4715: 'Check_1st_Diagonal_Line': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\tic-tac-toe\co caro\co caro.cpp(882): warning C4715: 'Check_2nd_Diagonal_Line': not all control paths return a value
+c:\users\tonyn\downloads\rmit subjects\building it system\1653084\tic-tac-toe\co caro\co caro.cpp(894): warning C4715: 'Check_Tie': not all control paths return a value
+  Co caro.vcxproj -> C:\Users\tonyn\Downloads\RMIT Subjects\Building IT System\1653084\tic-tac-toe\x64\Debug\Co caro.exe
